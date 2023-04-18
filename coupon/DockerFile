@@ -1,0 +1,4 @@
+FROM openjdk:17.0.1
+ADD coupon-0.0.1.jar coupon.jar
+EXPOSE 8090
+ENTRYPOINT ["java","-jar","coupon.jar"]
